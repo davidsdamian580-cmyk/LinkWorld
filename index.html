@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LinkWorld Pro — Deals & Discoveries</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="#">Link<span>World</span></a>
+  <div class="search"><input id="search" placeholder="Search products, services, countries..."></div>
+  <select id="country"><option value="all">🌍 Worldwide</option><option value="za">🇿🇦 South Africa</option><option value="us">🇺🇸 USA</option><option value="uk">🇬🇧 UK</option><option value="eu">🇪🇺 Europe</option><option value="asia">🌏 Asia</option></select>
+</header>
+
+<section class="hero">
+  <div>
+    <span class="eyebrow">LINKWORLD PRO</span>
+    <h1>Discover products and services from around the world.</h1>
+    <p>Search curated offers by category and country. Partner links may earn a commission from qualifying purchases or sign-ups.</p>
+    <a href="#offers" class="primary">Explore offers</a>
+  </div>
+  <div class="hero-art">🌎<small>Worldwide<br>discovery</small></div>
+</section>
+
+<nav class="tabs">
+  <button class="active" data-cat="all">🔥 All</button>
+  <button data-cat="technology">💻 Technology</button>
+  <button data-cat="gaming">🎮 Gaming</button>
+  <button data-cat="fashion">👕 Fashion</button>
+  <button data-cat="home">🏠 Home</button>
+  <button data-cat="travel">✈️ Travel</button>
+  <button data-cat="education">📚 Education</button>
+  <button data-cat="services">📱 Services</button>
+</nav>
+
+<main id="offers">
+  <div class="section-title"><div><span class="eyebrow">CURATED CATALOGUE</span><h2>Featured offers</h2></div><span id="count"></span></div>
+  <div id="grid" class="grid"></div>
+  <div id="empty" class="empty" hidden>No matching offers.</div>
+</main>
+
+<section class="dashboard">
+  <div>
+    <span class="eyebrow">OWNER DASHBOARD</span>
+    <h2>Manage your affiliate catalogue</h2>
+    <p>Add approved partner links, descriptions, categories and countries without changing the page design.</p>
+  </div>
+  <div class="stats"><div><b id="offerStat">0</b><span>Offers</span></div><div><b>7</b><span>Categories</span></div><div><b>5</b><span>Regions</span></div></div>
+</section>
+
+<section class="payout">
+  <div class="payout-copy">
+    <span class="eyebrow">PAYOUT METHOD</span>
+    <h2>South Africa EFT</h2>
+    <p>Select EFT as your preferred payout method. This website only provides the interface; your actual bank details should be entered into the affiliate network's secure payout portal.</p>
+    <div class="notice">🔒 <b>Bank security:</b> Never enter your banking PIN, password, OTP or online-banking login here.</div>
+  </div>
+  <form id="eftForm" class="eft-form">
+    <label>Payout method
+      <select id="payoutMethod"><option>EFT — South Africa</option></select>
+    </label>
+    <label>Bank
+      <select id="bank">
+        <option value="">Select your bank</option>
+        <option>ABSA</option><option>African Bank</option><option>Access Bank South Africa</option>
+        <option>Al Baraka Bank</option><option>Bank Zero</option><option>Capitec Bank</option>
+        <option>Discovery Bank</option><option>FNB</option><option>Investec</option>
+        <option>Nedbank</option><option>Standard Bank</option>
+      </select>
+    </label>
+    <label>Account holder name
+      <input id="accountName" autocomplete="name" placeholder="Account holder">
+    </label>
+    <label>Account type
+      <select id="accountType"><option>Cheque / Current</option><option>Savings</option><option>Transmission</option></select>
+    </label>
+    <label>Branch code
+      <input id="branchCode" inputmode="numeric" maxlength="8" placeholder="Branch code">
+    </label>
+    <label>Account number
+      <input id="accountNumber" inputmode="numeric" autocomplete="off" placeholder="Account number">
+    </label>
+    <button type="submit" class="primary save-btn">Save EFT preference</button>
+    <small id="eftStatus"></small>
+  </form>
+</section>
+
+<footer>
+  <div><a class="brand" href="#">Link<span>World</span></a><p>Independent affiliate discovery platform.</p></div>
+  <div><h4>Disclosure</h4><p>Some links are affiliate links. We may earn a commission from qualifying actions. Prices and availability belong to the partner.</p></div>
+  <div><h4>Legal</h4><p><a href="#">Affiliate Disclosure</a> · <a href="#">Privacy</a> · <a href="#">Terms</a></p></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
