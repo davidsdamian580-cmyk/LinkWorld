@@ -25,3 +25,25 @@ The updated site includes a South Africa EFT payout preference form and a bank s
 This form is deliberately front-end only. It does NOT send, store, or transmit bank account details.
 For real affiliate payouts, configure EFT inside the affiliate network's secure payout settings.
 The listed banks are common South African banking options; the exact banks/payment methods available depend on the affiliate network.
+
+
+LEGITIMATE AFFILIATE NETWORKS
+=============================
+The website now includes a network directory for:
+- Awin
+- Wielo
+- Amazon Associates
+
+These are displayed as application/learning links, not as a claim that LinkWorld is already approved or connected to them.
+
+To connect a real programme:
+1. Apply directly to the network.
+2. Complete its identity/payment/tax checks.
+3. Apply to individual advertiser programmes where required.
+4. Obtain your unique tracking/deep link.
+5. Replace the corresponding placeholder URL in script.js.
+6. Test the link and make sure the required affiliate disclosure remains visible.
+
+Do not place bank credentials, OTPs, passwords, secret API keys or other sensitive credentials in the front-end files.
+
+Awin describes publishers as people who promote advertiser products through tracking links and earn commission on successful actions. Wielo documents referral tracking and EFT/Paystack/PayPal payouts. Amazon's official documentation says Associates participation is locale-specific and separate registration may be required for different marketplaces.

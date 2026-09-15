@@ -1,16 +1,16 @@
 const offers=[
-{title:"Laptop & Tech Picks",cat:"technology",country:"all",icon:"💻",place:"Worldwide",desc:"Useful technology products for study, work and everyday life.",url:"https://example.com/approved-affiliate-link"},
-{title:"Gaming Accessories",cat:"gaming",country:"all",icon:"🎮",place:"Worldwide",desc:"Discover gaming accessories from approved partner stores.",url:"https://example.com/approved-affiliate-link"},
-{title:"Fashion Finds",cat:"fashion",country:"us",icon:"👕",place:"USA",desc:"Explore clothing and lifestyle products.",url:"https://example.com/approved-affiliate-link"},
-{title:"Smart Home",cat:"home",country:"uk",icon:"🏠",place:"UK",desc:"Home and smart-device recommendations.",url:"https://example.com/approved-affiliate-link"},
-{title:"Travel Essentials",cat:"travel",country:"eu",icon:"✈️",place:"Europe",desc:"Travel services and useful travel products.",url:"https://example.com/approved-affiliate-link"},
-{title:"Study Tools",cat:"education",country:"za",icon:"📚",place:"South Africa",desc:"Learning resources and study tools.",url:"https://example.com/approved-affiliate-link"},
-{title:"Online Services",cat:"services",country:"asia",icon:"📱",place:"Asia",desc:"Useful digital services and subscriptions.",url:"https://example.com/approved-affiliate-link"},
-{title:"South African Tech",cat:"technology",country:"za",icon:"🇿🇦",place:"South Africa",desc:"Technology offers for South African visitors.",url:"https://example.com/approved-affiliate-link"},
-{title:"European Style",cat:"fashion",country:"eu",icon:"👟",place:"Europe",desc:"Fashion and lifestyle discoveries.",url:"https://example.com/approved-affiliate-link"},
-{title:"Home Office",cat:"home",country:"us",icon:"🪑",place:"USA",desc:"Products for building a productive workspace.",url:"https://example.com/approved-affiliate-link"},
-{title:"Language Learning",cat:"education",country:"all",icon:"🌐",place:"Worldwide",desc:"Explore language-learning resources.",url:"https://example.com/approved-affiliate-link"},
-{title:"Travel Gear",cat:"travel",country:"za",icon:"🎒",place:"South Africa",desc:"Useful travel gear and services.",url:"https://example.com/approved-affiliate-link"}
+{title:"Laptop & Tech Picks",cat:"technology",country:"all",icon:"💻",place:"Worldwide",desc:"Useful technology products for study, work and everyday life.",network:"Replace with your approved network",url:"https://example.com/approved-affiliate-link"},
+{title:"Gaming Accessories",cat:"gaming",country:"all",icon:"🎮",place:"Worldwide",desc:"Discover gaming accessories from approved partner stores.",network:"Replace with your approved network",url:"https://example.com/approved-affiliate-link"},
+{title:"Fashion Finds",cat:"fashion",country:"us",icon:"👕",place:"USA",desc:"Explore clothing and lifestyle products.",network:"Replace with your approved network",url:"https://example.com/approved-affiliate-link"},
+{title:"Smart Home",cat:"home",country:"uk",icon:"🏠",place:"UK",desc:"Home and smart-device recommendations.",network:"Replace with your approved network",url:"https://example.com/approved-affiliate-link"},
+{title:"Travel Essentials",cat:"travel",country:"eu",icon:"✈️",place:"Europe",desc:"Travel services and useful travel products.",network:"Replace with your approved network",url:"https://example.com/approved-affiliate-link"},
+{title:"Study Tools",cat:"education",country:"za",icon:"📚",place:"South Africa",desc:"Learning resources and study tools.",network:"Replace with your approved network",url:"https://example.com/approved-affiliate-link"},
+{title:"Online Services",cat:"services",country:"asia",icon:"📱",place:"Asia",desc:"Useful digital services and subscriptions.",network:"Replace with your approved network",url:"https://example.com/approved-affiliate-link"},
+{title:"South African Tech",cat:"technology",country:"za",icon:"🇿🇦",place:"South Africa",desc:"Technology offers for South African visitors.",network:"Replace with your approved network",url:"https://example.com/approved-affiliate-link"},
+{title:"European Style",cat:"fashion",country:"eu",icon:"👟",place:"Europe",desc:"Fashion and lifestyle discoveries.",network:"Replace with your approved network",url:"https://example.com/approved-affiliate-link"},
+{title:"Home Office",cat:"home",country:"us",icon:"🪑",place:"USA",desc:"Products for building a productive workspace.",network:"Replace with your approved network",url:"https://example.com/approved-affiliate-link"},
+{title:"Language Learning",cat:"education",country:"all",icon:"🌐",place:"Worldwide",desc:"Explore language-learning resources.",network:"Replace with your approved network",url:"https://example.com/approved-affiliate-link"},
+{title:"Travel Gear",cat:"travel",country:"za",icon:"🎒",place:"South Africa",desc:"Useful travel gear and services.",network:"Replace with your approved network",url:"https://example.com/approved-affiliate-link"}
 ];
 let cat="all";
 const grid=document.querySelector("#grid"),search=document.querySelector("#search"),country=document.querySelector("#country");
